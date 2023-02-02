@@ -1,0 +1,263 @@
+ body {
+    font-size: 15pt;
+    background-color: #FFFFFF;
+}
+
+
+@keyframes bluring {
+ 10% {
+    filter:blur(10px);
+    background-color: #A5A8D0;
+    
+  }
+}
+.glow{
+  position: absolute;
+  left:4.9rem;
+  top:3.9rem;
+  width: 17rem;
+  height: 17rem;
+  border-radius:50%;
+ filter: blur(30px);
+  background-color: #F1B8B8;
+  animation: bgchge 500ms infinite;
+}
+.sun{
+  position: absolute;
+  left:5.9rem;
+  top:5rem;
+  width: 15rem;
+  height: 15rem;
+  border-radius:50%;
+  background-color: #EDCD3A;
+}
+#txt-1{
+  font-family: 'Amatic SC',cursive;
+  position: absolute;
+  right:5rem;;
+}
+#txt-2{
+  font-family: 'Water Brush', cursive;
+  position: absolute;
+  right:5.3rem;
+  top:1.4rem;
+  color: #E15555
+}
+#panda{
+  width: 10rem;
+  position: absolute;
+  top:5rem;
+  left: 3.2rem;
+  animation: updown 1.5s infinite;
+}
+@keyframes updown{
+  10%{
+    position: absolute;
+    top:5rem;
+    left:3.2rem;
+  }
+  20%{
+    position: absolute;
+    top:5.3rem;
+    left:3.1rem;
+  }
+  30%{
+    position: absolute;
+    top:5.2rem;
+    left: 3rem;
+  }
+  40%{
+    position: absolute;
+    top:5rem;
+    left:3.2rem;
+  }
+  50%{
+    position: absolute;
+    top:5rem;
+    left:3.2rem;
+  }
+  60%{
+    position: absolute;
+    top:5.2rem;
+    left: 3rem;
+  }
+  70%{
+    position: absolute;
+    top:5.3rem;
+    left:3.1rem;
+  }
+  80%{
+    position: absolute;
+    top:5rem;
+    left:3.2rem;
+  }
+}
+#cloud_big{
+  width: 3rem;
+  position: relative;
+  top:5rem;
+  left: 3.2rem;
+  animation: move 5s infinite;
+}
+@keyframes move{
+  0%{
+    width: 3rem;
+  position: relative;
+  top:5rem;
+  left: 3.2rem;
+  }
+  10%{
+    width: 3rem;
+    position: relative;
+    top:5rem;
+    left: 3.6rem;
+  }
+  20%{
+    width: 3rem;
+    position: relative;
+    top:5rem;
+    left: 4rem;
+  }
+  30%{
+    width: 3rem;
+    position: relative;
+    top:5rem;
+    left: 4.4rem;
+  }
+  40%{
+    width: 3rem;
+    position: relative;
+    top:5rem;
+    left: 4.8rem;
+  }
+  50%{
+    width: 3rem;
+    position: relative;
+    top:5rem;
+    left: 5.2rem;
+  }
+  60%{
+    width: 3rem;
+    position: relative;
+    top:5rem;
+    left: 5.6rem;
+  }
+  
+}
+#cloud_small{
+  width: 2rem;
+  position: relative;
+  top:10.5rem;
+  left: 6.2rem;
+  animation: move-1 6s infinite;
+}
+@keyframes move-1{
+  0%{
+    width: 2rem;
+  position: relative;
+  top:10.5rem;
+  left: 6.2rem;
+  }
+  10%{
+    width: 2rem;
+    position: relative;
+    top:10.5rem;
+    left: 6.8rem;
+  }
+  25%{
+    width: 2rem;
+    position: relative;
+    top:10.5rem;
+    left: 7.5rem;
+  }
+  50%{
+    width: 2rem;
+    position: relative;
+    top:10.5rem;
+    left: 6.8rem;
+  }
+  100%{
+    width: 2rem;
+    position: relative;
+    top:10.5rem;
+    left: 6.2rem;
+  }
+}
+
+.content{
+  position: absolute ;
+  width: 20rem;
+  height :25rem;
+  top:25rem;
+  left: 3.5rem;
+  background: #9D60FF;
+  border-radius: 3rem;
+}
+#credit{
+  position: absolute;
+  font-family: 'Press Start 2P';
+  width: 10.4rem;
+  height:1.9rem;
+  top:40rem;
+  left: 8.9rem;
+  color: #0015FF;
+  font-size:1rem;
+}
+
+h2{
+  position: absolute;
+  top:28rem;
+  left:6rem;
+}
+h3{
+  position: absolute;
+  top:30.5rem;
+  left:8.5rem;
+}
+svg{
+        position: absolute;
+        top:50rem; 
+}
+.Anime{
+        width: 4rem;
+        height: 5rem;
+        position: relative;
+        top:25rem;
+        background: #5660C6;
+        display: flex;
+        justify-content: center;
+        animation: roll 3s infinite;
+        border : 4px solid #000000;
+        border-radius: 10px;
+}
+span{
+        position: absolute ;
+        top:28rem;
+        Left: 13rem;
+        transform: scale(5,5);
+        animation: beat 1.5s infinite;
+}
+@keyframes beat{
+        0%{
+                transform: scale(5,5);
+        }
+        1%{
+                transform: scale(6,6);
+        }
+        2%{
+                transform : scale(7,7);
+        }
+        3%{
+                transform: scale(8,8);
+        }
+        4%{
+                transform : scale(7,7);
+        }
+       5%{
+               transform: scale(6,6);
+       }
+       6%{
+               transform: scale(5,5);
+       }
+ 
+}
